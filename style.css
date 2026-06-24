@@ -818,7 +818,7 @@ html { scroll-behavior: smooth; }
              Responsive Media Queries
              =========================== */
         @media (max-width: 350px) {
-			#home{
+			.menu #home{
 				display:none;
 			}
             .intt { height: auto }
