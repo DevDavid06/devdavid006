@@ -818,6 +818,9 @@ html { scroll-behavior: smooth; }
              Responsive Media Queries
              =========================== */
         @media (max-width: 350px) {
+			#home{
+				display:none;
+			}
             .intt { height: auto }
             .intro { margin: 49px 15px 15px }
             .intro img { width: 100% }
@@ -848,9 +851,6 @@ html { scroll-behavior: smooth; }
 
         }
         @media (min-width: 351px) and (max-width: 600px) {
-			#home{
-				display:none;
-			}
             .intt { height: auto }
             .intro { margin: 49px 15px 15px }
             .intro img { width: 100% }
